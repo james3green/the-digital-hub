@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <title></title>
+        <meta name="Generator" content="Cocoa HTML Writer">
+        <meta name="CocoaVersion" content="1504.76">
+        <style type="text/css">
+            p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+            p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+            li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+            span.s1 {font-kerning: none}
+            span.s2 {-webkit-text-stroke: 0px #000000}
+            span.s3 {text-decoration: underline ; font-kerning: none}
+            ul.ul1 {list-style-type: disc}
+        </style>
+    </head>
+
+    <body>
+
+        {% extends "layout.html" %}
+
+        {% block page_title %}
+        GOV.UK prototype kit
+        {% endblock %}
+
+        {% block content %}
+
+            <main id="content" role="main">
+                <div class="grid-row">
+                    <div class="column-two-thirds">
+
+                        <h1 class="heading-xlarge">A Course</h1>
+
+                        <h3 class="heading-medium">Video</h3>
+
+                        <!--<div class="form-group" id="#title-video">
+                            <legend id="file-upload">
+                                <label class="form-label-bold" for="full-name-f1">Title</label>
+                            </legend>
+                            <span class="form-hint">For example, ‘Understanding Your Emotions’.</span>
+
+                            <input class="form-control" id="full-name-f1" type="text">
+                        </div>-->
+
+                        <!--<div class="form-group" id="#list-category">
+                            <label class="form-label-bold" for="select-box">Category</label>
+                            <span class="form-hint">Select the category of the video. <br>For example: A video about algebra would be in the 'Maths' category.</span>
+                            <select class="form-control" id="select-box">
+                                <option>Distance Learning</option>
+                                <option>Art and Literature</option>
+                                <option>Business and Economics</option>
+                                <option>Counselling and Psychology</option>
+                                <option>English</option>
+                                <option>Environmental Studies</option>
+                                <option>Foreign Languages</option>
+                                <option>History</option>
+                                <option>Law and Politics</option>
+                                <option>Maths</option>
+                                <option>Philosophy</option>
+                                <option>Science</option>
+                                <option>Sociology</option>
+                            </select>
+                        </div>-->
+
+                        <div class="form-group" id="#file-upload">
+                            <label class="form-label-bold" for="file-input">Upload video file</label>
+                            <span class="form-hint">The format should be MP4.</span>
+                            <input type="file" id="file-input">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="button" type="submit" value="Save">
+                            <h4 class="success">Saved successfully</h4>
+                            <p class="font-xsmall">Date stamp</p>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+
+        {% endblock %}
+
+    </body>
+</html>
