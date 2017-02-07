@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+
+            <div class="error-summary" role="group" aria-labelledby="error-summary-heading-example-2" tabindex="-1">
+                <h1 class="heading-medium error-summary-heading" id="error-summary-heading-example-2">
+                    Please check the following areas
+                </h1>
+                <p>One or more errors have occurred while trying to save your progress</p>
+                <ul class="error-summary-list">
+                    <li><a href="#title-course">Not including the title of a course</a></li>
+                    <li><a href="#file-upload">Uploading a file that's too large</a></li>
+                </ul>
+            </div>
+
+            <div class="form-group error">
+                <label for="example-full-name" id="error-full-name">
+                    <legend id="title-course">
+                        <span class="form-label-bold">Title</span>
+                        <span class="form-hint">For example, ‘Maths Module 1: Learning about numbers’.</span>
+                        <span class="error-message" id="error-message-full-name">Please enter a title [that contains only letters or numbers]</span>
+                    </legend>
+                </label>
+                <input class="form-control" id="example-full-name" type="text" name="fullName" value="" aria-describedby="error-message-full-name">
+            </div>
+
+            <div class="form-group error">
+                <legend id="file-upload">
+                    <span class="form-label-bold">Upload file</span>
+                    <span class="form-hint">This should be in a PDF format and no larger than 5MB.</span>
+                    <span class="error-message">The file you're trying to upload [is too large. Please upload a file smaller than 5MB.]</span>
+                    <span class="error-message">The file you're trying to upload [isn't a PDF. Please upload a PDF file.]</span>
+                </legend>
+                <input type="file" id="file-input">
+            </div>
+
+
+        </div>
+    </div>
+</main>
+
+{% endblock %}
+
+
