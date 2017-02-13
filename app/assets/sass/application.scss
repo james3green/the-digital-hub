@@ -33,7 +33,27 @@ h4.success {
         color: #28A197;
         font-weight: bold;
         margin-top: 10px;
-    p { 
+    p {
         margin-bottom: 0px
+    }
+}
+
+.duration-video {
+    padding: 0 10px 0 0;
+    width: 75px;
+    float: left;
+
+    input.form-control {
+        width: 100%;
+    }
+}
+
+.description-video {
+    margin-bottom: 30px;
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        resize: none;
     }
 }
