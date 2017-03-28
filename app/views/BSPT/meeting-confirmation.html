@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="grid-row">
+
+        <div class="column-full">
+
+            <br>
+
+            <a class="nav-button active taller" href="index-page.html" role="button">Dashboard</a>
+            <a class="nav-button taller" href="people.html" role="button">Shift Log</a>
+            <a class="nav-button taller" href="people.html" role="button">People</a>
+            <a class="nav-button taller" href="landing.html" role="button">Landing</a>
+            <a class="nav-button taller" href="tasks.html" role="button">Tasks</a>
+            <a class="nav-button taller" href="appointments" role="button">Meetings</a>
+
+            <br><br>
+            <h1 class="heading-small">Logged in as:</h1> Martha Green, Offender Manager AB12345<br>
+            <a href="">Log out</a>
+
+            <br>
+
+            <div class="confirmation column-full">
+                <div class="confirmation-panel column-two-thirds">
+                    <h3 class="heading-large">Meeting booked</h3>
+                    <ul>
+                        <li>With: Ian Rider</li>
+                        <li>When: Today at 10:30</li>
+                        <li>Where: Meeting room 2</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p>This meeting has been added to your calendar and schedule.</p>
+            <p>Ian Rider will be notified via The Hub.</p>
+            <br>
+            <a class="button share" href="index-page.html" role="button">Dashboard</a>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}
+
+

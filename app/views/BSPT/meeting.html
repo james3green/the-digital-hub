@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="grid-row">
+
+        <div class="column-full">
+
+            <br>
+
+            <a class="nav-button active taller" href="index-page.html" role="button">Dashboard</a>
+            <a class="nav-button taller" href="people.html" role="button">Shift Log</a>
+            <a class="nav-button taller" href="people.html" role="button">People</a>
+            <a class="nav-button taller" href="landing.html" role="button">Landing</a>
+            <a class="nav-button taller" href="tasks.html" role="button">Tasks</a>
+            <a class="nav-button taller" href="appointments" role="button">Meetings</a>
+
+            <br><br>
+            <h1 class="heading-small">Logged in as:</h1> Martha Green, Offender Manager AB12345<br>
+            <a href="">Log out</a>
+
+            <h1 class="heading-large">Book a meeting</h1>
+
+            <div class="form-group">
+                <label class="form-label" for="select-box">Who with?</label>
+                <select class="form-control" id="select-box">
+                    <option>Ian Rider</option>
+                    <option>Dom Wilkins</option>
+                    <option>Vincent Carter</option>
+                    <option>Jason Richardson</option>
+                    <option>Michael Johnson</option>
+                    <option>Nathan Robinson</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="select-box">Date of meeting</label>
+                <select class="form-control" id="select-box">
+                    <option>Today</option>
+                    <option>Tomorrow</option>
+                    <option>Wednesday, 23/03/2017</option>
+                    <option>Thursday, 24/03/2017</option>
+                    <option>Friday, 25/03/2017</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="select-box">Time of meeting</label>
+                <select class="form-control" id="select-box">
+                    <option>9:00</option>
+                    <option>9:30</option>
+                    <option>10:00am</option>
+                    <option>10:30am</option>
+                    <option>11:00</option>
+                    <option>11:30</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="select-box">Meeting place</label>
+                <select class="form-control" id="select-box">
+                    <option>Library</option>
+                    <option>Wing B office</option>
+                    <option>Education Centre</option>
+                    <option>Meeting room 1</option>
+                    <option>Meeting room 2</option>
+                    <option>Meeting room 3</option>
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="full-name-f1">Any other details?</label>
+                <input class="form-control" id="full-name-f1" type="text">
+            </div>
+
+
+            <div class="">
+                <a class="button calendar" href="meeting-confirmation.html" role="button">Save and continue</a>
+            </div>
+
+            </div>
+
+            </div>
+
+</main>
+
+{% endblock %}
+
+

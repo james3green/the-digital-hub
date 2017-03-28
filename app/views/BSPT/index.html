@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="grid-row">
+
+        <div class="column-full">
+            <br>
+            <a class="nav-button active taller" href="index-page.html" role="button">Dashboard</a>
+            <a class="nav-button taller" href="people.html" role="button">Shift Log</a>
+            <a class="nav-button taller" href="people.html" role="button">People</a>
+            <a class="nav-button taller" href="landing.html" role="button">Landing</a>
+            <a class="nav-button taller" href="tasks.html" role="button">Tasks</a>
+            <a class="nav-button taller" href="appointments" role="button">Meetings</a>
+            <a class="nav-button taller notifications" href="appointments" role="button">Notifications</a>
+            <br><br>
+            <h1 class="heading-small">Logged in as:</h1> Martha Green, Offender Manager AB12345<br>
+            <a href="">Log out</a>
+
+
+            <h1 class="heading-large">Dashboard</h1>
+
+
+            <h3 class="heading-small">Thursday (21.03.2017)</h3>
+
+            <div class="dashboard-alarm column-full">
+                    <strong class="bold-small">
+                        Attention notice: Wing B is on lockdown due to routine search findings
+                    </strong>
+                    <br>
+                    Issued by Devon Jones at 08:37am
+            </div>
+
+
+            <div class="dashboard-block column-one-half">
+
+                <h3 class="heading-medium">You have 3 new notifications</h3>
+
+                <ol class="list list-number">
+                    <li><strong class="bold-small">8:24am:</strong> <a href="profile.html">Ian Rider</a> has been added to your list of offenders</li>
+                    <li><strong class="bold-small">8:04am:</strong> Jason Richardson has confirmed your <a href="">meeting request</a></li>
+                    <li><strong class="bold-small">7:39am:</strong> Vincent Carter has declined your <a href="">meeting request</a></li>
+                </ol>
+                <a href="">Mark all as read</a><br>
+                <a href="">All notifications</a>
+
+            </div>
+
+
+            <div class="dashboard-block column-one-half">
+
+                <h3 class="heading-medium">Upcoming tasks</h3>
+
+                <ol class="list list-number">
+                    <li><strong class="bold-small">10:30am:</strong> <a href="profile.html">Meeting</a> with Ian Rider about progress planning</li>
+                    <li><strong class="bold-small">1:30pm:</strong> <a href="profile.html">Meeting</a> with Nathan Robinson about recent visits</li>
+                    <li><strong class="bold-small">2:45pm:</strong> Offender management leadership training exercise</li>
+                </ol>
+                <a href="">Mark all as complete</a><br>
+                <a href="">Full schedule</a>
+
+            </div>
+
+
+            <div class="dashboard-map column-full">
+                <h3 class="heading-medium">Where are they now?</h3>
+
+                <div class="map-block column-one-half">
+
+                    <h3 class="heading-medium">Map</h3>
+
+                    <div class="dashboard-map map-background column-one-third">
+                        <img src="https://static.wixstatic.com/media/1ea37c_7f001b6f414145e59f95aad6bac15b0b~mv2.jpg/v1/fill/w_1028,h_1028,al_c,q_85/1ea37c_7f001b6f414145e59f95aad6bac15b0b~mv2.webp">
+                    </div>
+
+                </div>
+
+                <div class="key-block column-one-half">
+
+                    <h3 class="heading-medium">Key</h3>
+
+                    <ol class="list list-number">
+                        <li><strong class="bold-small">Ian Rider:</strong> Wing B</li>
+                        <li><strong class="bold-small">Nathan Robinson:</strong> Education Centre</li>
+                        <li><strong class="bold-small">Vincent Carter:</strong> Wing A</li>
+                        <li><strong class="bold-small">Jason Richardson:</strong> Visitors Centre</li>
+                        <li><strong class="bold-small">Dom Wilkins:</strong> Visitors Centre</li>
+                        <li><strong class="bold-small">Michael Johnson:</strong> Wing B</li>
+                    </ol>
+                    <p>
+                        This information is refreshed every 30 seconds so may not be exactly accurate at the time of reading.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+{% endblock %}
+
+

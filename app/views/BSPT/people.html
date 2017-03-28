@@ -1,0 +1,233 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="grid-row">
+
+        <div class="column-full">
+
+            <br>
+
+            <a class="nav-button active taller" href="index-page.html" role="button">Dashboard</a>
+            <a class="nav-button taller" href="people.html" role="button">Shift Log</a>
+            <a class="nav-button taller" href="people.html" role="button">People</a>
+            <a class="nav-button taller" href="landing.html" role="button">Landing</a>
+            <a class="nav-button taller" href="tasks.html" role="button">Tasks</a>
+            <a class="nav-button taller" href="appointments" role="button">Meetings</a>
+
+            <br><br>
+            <h1 class="heading-small">Logged in as:</h1> Martha Green, Offender Manager AB12345<br>
+            <a href="">Log out</a>
+
+            <h1 class="heading-large">My People</h1>
+
+            <div class="grid-row column-full box-profile-new">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">NEW: Ian Rider</h1>
+                        <ul>
+                            <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                            <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                            <li><strong class="bold-small">Doing now:</strong> English Class at Education Block B</li>
+                            <li><strong class="bold-small">Doing next:</strong> Meeting at 14:30 with Martha Green</li>
+                            <br>
+                            <a class="button" href="profile.html" role="button">View Profile</a>
+                            <br><br>
+                        </ul>
+                </div>
+
+                <!--<div class="hidden-content">
+                    <details>
+
+                        <summary><span class="summary">More information</span></summary>
+
+                        <div class="panel panel-border-narrow">
+
+                            <div class="profile-info column-full">
+
+                                <h1 class="heading-medium">Alerts</h1>
+
+                                <div class="alerts column-one-half">
+
+                                    <ul>
+                                        <li><strong class="bold-small">Alert type:</strong> Security</li>
+                                        <li><strong class="bold-small">Alert code:</strong> Staff Assaulter</li>
+                                        <li><strong class="bold-small">Comments:</strong> Assaulted police</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="alerts column-one-half">
+
+                                    <ul>
+                                        <li><strong class="bold-small">Alert type:</strong> Security</li>
+                                        <li><strong class="bold-small">Alert code:</strong> Staff Assaulter</li>
+                                        <li><strong class="bold-small">Comments:</strong> Spits at staff</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="alerts column-one-half">
+
+                                    <ul>
+                                        <li><strong class="bold-small">Alert type:</strong> Security</li>
+                                        <li><strong class="bold-small">Alert code:</strong> Assaulter</li>
+                                        <li><strong class="bold-small">Comments:</strong> Assaulted partner</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="alerts column-one-half">
+
+                                    <ul>
+                                        <li><strong class="bold-small">Alert type:</strong> Security</li>
+                                        <li><strong class="bold-small">Alert code:</strong> Assaulter</li>
+                                        <li><strong class="bold-small">Comments:</strong> Assaulted partner</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="profile-info column-full">
+
+                                <h1 class="heading-medium">Personal Details</h1>
+
+                                <div class="column-one-half">
+                                    <ul>
+                                        <li><strong class="bold-small">DOB:</strong> 01/01/1975</li>
+                                        <li><strong class="bold-small">Age:</strong> 42</li>
+                                        <li><strong class="bold-small">Gender:</strong> Male</li>
+                                        <li><strong class="bold-small">Classification:</strong> Maximum</li>
+                                        <li><strong class="bold-small">Facility:</strong> ITAG</li>
+                                    </ul>
+                                </div>
+
+                                <div class="column-one-half">
+                                    <ul>
+                                        <li><strong class="bold-small">Aliases:</strong> "Big Jon" </li>
+                                        <li><strong class="bold-small">Build:</strong> Medium</li>
+                                        <li><strong class="bold-small">Complexion:</strong> Dark</li>
+                                        <li><strong class="bold-small">Hair Colour:</strong> Black</li>
+                                        <li><strong class="bold-small">Eyes:</strong> Brown</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <a class="button" href="profile.html" role="button">View full profile</a>
+
+                        </div>
+
+                    </details>
+                </div>-->
+
+                <br>
+            </div>
+
+            <div class="grid-row column-full box-profile">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">Jason Richardson</h1>
+                    <ul>
+                        <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                        <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                        <li><strong class="bold-small">Last activity:</strong> English Class at Education Block B</li>
+                        <li><strong class="bold-small">Next activity:</strong> Visit at 14:30 with Jane Parker</li>
+                        <br>
+                        <a class="button" href="profile.html" role="button">View Profile</a>
+                        <br><br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-row column-full box-profile">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">Nathan Robinson</h1>
+                    <ul>
+                        <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                        <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                        <li><strong class="bold-small">Last activity:</strong> English Class at Education Block B</li>
+                        <li><strong class="bold-small">Next activity:</strong> Visit at 14:30 with Jane Parker</li>
+                        <br>
+                        <a class="button" href="profile.html" role="button">View Profile</a>
+                        <br><br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-row column-full box-profile">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">Michael Johnson</h1>
+                    <ul>
+                        <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                        <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                        <li><strong class="bold-small">Last activity:</strong> English Class at Education Block B</li>
+                        <li><strong class="bold-small">Next activity:</strong> Visit at 14:30 with Jane Parker</li>
+                        <br>
+                        <a class="button" href="profile.html" role="button">View Profile</a>
+                        <br><br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-row column-full box-profile">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">Dom Wilkins</h1>
+                    <ul>
+                        <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                        <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                        <li><strong class="bold-small">Last activity:</strong> English Class at Education Block B</li>
+                        <li><strong class="bold-small">Next activity:</strong> Visit at 14:30 with Jane Parker</li>
+                        <br>
+                        <a class="button" href="profile.html" role="button">View Profile</a>
+                        <br><br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-row column-full box-profile">
+                <div class="column-one-third">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png">
+                </div>
+                <div class="people column-two-thirds">
+                    <h1 class="heading-large">Vincent Carter</h1>
+                    <ul>
+                        <li><strong class="bold-small">ID:</strong> 1234569000</li>
+                        <li><strong class="bold-small">Cell:</strong> 19 <strong class="bold-small">Landing:</strong> B <strong class="bold-small">Wing:</strong> 4</li>
+                        <li><strong class="bold-small">Last activity:</strong> English Class at Education Block B</li>
+                        <li><strong class="bold-small">Next activity:</strong> Visit at 14:30 with Jane Parker</li>
+                        <br>
+                        <a class="button" href="profile.html" role="button">View Profile</a>
+                        <br><br>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+{% endblock %}
+
+
